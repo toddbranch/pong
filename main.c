@@ -5,8 +5,6 @@
  * Description: Demonstrates functionality of the pong.h library
  */
 
-// added a comment
-
 #include <stdio.h>
 #include "pong.h"
 
