@@ -9,9 +9,9 @@ pong.h offers two functions:
 
 To use the code:
 
-1)  Create a ball using the createBall function.
-2)  Move the ball via the move ball function.
-3)  Profit!
+1.  Create a ball using the createBall function.
+2.  Move the ball via the move ball function.
+3.  Profit!
 
 If you're unclear on how you might demo this, a sample program is included as main.c.
 
