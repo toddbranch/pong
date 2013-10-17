@@ -6,9 +6,6 @@
 
 #include "pong.h"
 
-ball_t createBall(vector2d_t position, vector2d_t velocity, unsigned char radius)
-
-
 ball_t createBall(int xPos, int yPos, int xVel, int yVel, unsigned char radius)
 {
     vector2d_t position = {xPos, yPos};
@@ -18,8 +15,6 @@ ball_t createBall(int xPos, int yPos, int xVel, int yVel, unsigned char radius)
 
     return newBall;
 }
-
-ball_t updateBallIfHitLeftOrRightWall(ball_t ballToTest);
 
 ball_t didBallHitLeftOrRight(ball_t ballToTest);
 ball_t didBallHitTopOrBottom(ball_t ballToTest);
